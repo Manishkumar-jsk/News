@@ -1,19 +1,11 @@
 import "./post.css";
-import { MoreVert } from "@material-ui/icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faTwitter,faFacebook,faWhatsapp} from '@fortawesome/free-brands-svg-icons'
 import { Users } from "../../dummyData";
-import { useState } from "react";
+import { MoreVert } from "@material-ui/icons";
 import { faShareNodes } from "@fortawesome/free-solid-svg-icons";
 
 export default function Post({ post }) {
-  const [like,setLike] = useState(post.like)
-  const [isLiked,setIsLiked] = useState(false)
-
-  const likeHandler =()=>{
-    setLike(isLiked ? like-1 : like+1)
-    setIsLiked(!isLiked)
-  }
   return (
     <div className="post">
       <div className="postWrapper">

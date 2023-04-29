@@ -33,8 +33,6 @@ export const Posts = [
       photo: "https://images.pexels.com/photos/723072/pexels-photo-723072.jpeg?auto=compress&cs=tinysrgb&w=600",
       date: "5 mins ago",
       userId: 1,
-      like: 32,
-      comment: 9,
     },
     {
       id: 2,
@@ -42,8 +40,6 @@ export const Posts = [
       photo: "https://images.pexels.com/photos/723072/pexels-photo-723072.jpeg?auto=compress&cs=tinysrgb&w=600",
       date: "10 min ago",
       userId: 2,
-      like: 2,
-      comment: 1,
     },
     {
       id: 3,
@@ -51,8 +47,6 @@ export const Posts = [
       photo: "https://images.pexels.com/photos/723072/pexels-photo-723072.jpeg?auto=compress&cs=tinysrgb&w=600",
       date: "1 hour ago",
       userId: 3,
-      like: 61,
-      comment: 2,
     },
     {
       id: 4,
@@ -60,8 +54,6 @@ export const Posts = [
       desc:"Aenean tempor consequat metus ac euismod. Suspendisse faucibus venenatis nisl et accumsan. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Vivamus iaculis id erat vel interdum. Maecenas quis gravida massa, a ornare libero. Donec ac tortor at justo commodo vulputate. Nulla a velit et nisl imperdiet accumsan.",
       date: "3 hours ago",
       userId: 4,
-      like: 7,
-      comment: 3,
     },
     {
       id: 5,
@@ -69,7 +61,5 @@ export const Posts = [
       desc:"Praesent suscipit volutpat ipsum eu accumsan. Donec gravida ornare aliquet. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vestibulum a risus eu felis viverra venenatis. Sed ipsum nibh, facilisis at ex ut, gravida elementum ante. Nullam venenatis rutrum enim, rhoncus eleifend lectus gravida quis. Curabitur feugiat leo et dui sodales accumsan. Duis egestas nisi odio, eget hendrerit tellus facilisis et.",
       date: "5 hours ago",
       userId: 5,
-      like: 23,
-      comment: 5,
     },
   ];
